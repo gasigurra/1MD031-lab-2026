@@ -1,1 +1,127 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header>
+            <h1>Welcome to Burger Society</h1>
+        </header>
+        <main>
+            <section>
+                <h2> Summon the chef</h2>
+                <p> Forget fast food. Step into the a private tasting curated to your exact preferences.</p>
+                <div style="display: inline-block; width: 332px; vertical-align: top;">
+                <h3> The Aristocrat</h3>
+                <figure><img src="/img/The_aristocrat.png" alt="The Aristocrat Burger" style="width: 250px"></figure>
+
+                <ul>
+                    <li>House-baked brioche bun gilded in 24-karat edible gold leaf</li>
+                    <li>Generous spoonfuls of Beluga caviar</li>
+                    <li>Dry-aged Wagyu beef patty draped in melted aged cheddar</li>
+                    <li>Crisp butter lettuce and house-crafted emulsion on a gold-leaf-gilded brioche</li>
+                </ul>
+                <dl>
+                    <dt>Allergy Information</dt>
+                    <dd>As Burger Society is a small-batch, made-to-order restaurant, we do not accept allergy substitutions. Please consult with your server for any questions regarding ingredients.</dd>
+                    <br>
+                    <dt>Price</dt>
+                    <dd>Upon Commission</dd> 
+                </dl>
+                </div>
+
+                <div style="display: inline-block; width: 332px; vertical-align: top;">
+                <h3> The Crown Jewel</h3>
+                <figure><img src="/img/The_Crown_Jewel.png" alt="The Crown Jewel Burger" style="width: 250px"></figure>
+
+                <ul>
+                    <li>Toasted saffron-butter brioche bun crowned with a single leaf of 24-karat gold</li>
+                    <li>Butter-poached Atlantic lobster tail and seared Hokkaido scallop</li>
+                    <li>45-day dry-aged ribeye and bone marrow patty</li>
+                    <li>Aged Comté cheese, black winter truffle reduction, and crisp baby gem lettuce</li>
+                </ul>
+                <dl>
+                    <dt>Allergy Information</dt>
+                    <dd>As Burger Society is a small-batch, made-to-order restaurant, we do not accept allergy substitutions. Please consult with your server for any questions regarding ingredients.</dd>
+                    <br>
+                    <dt>Price</dt>
+                    <dd>Upon Commission</dd> 
+                </dl>
+                </div>
+                <div style="display: inline-block; width: 332px; vertical-align: top;">
+                <h3> No. 5</h3>
+                <figure><img src="/img/no5.png" alt="No. 5 Burger" style="width: 250px"></figure>
+
+                <ul>
+                    <li>Minimalist, house-baked caramelized brioche bun</li>
+                    <li>Generous shavings of raw Alba white truffle</li>
+                    <li>Thick, chilled layer of Royal Osetra caviar kissed with edible gold leaf</li>
+                    <li>Pure, medium-rare A5 Miyazaki Wagyu patty seared in its own rendered fat</li>
+                </ul>
+                <dl>
+                    <dt>Allergy Information</dt>
+                    <dd>As Burger Society is a small-batch, made-to-order restaurant, we do not accept allergy substitutions. Please consult with your server for any questions regarding ingredients.</dd>
+                    <br>
+                    <dt>Price</dt>
+                    <dd>Upon Commission</dd> 
+                </dl>
+                </div>
+
+            </section>
+
+            <section>
+                <h2> Bespoke Concierge</h2>
+                <p> To arrange a seating or request a bespoke creation, contact our concierge directly. All orders require a minimum of 2 weeks advance notice to source your ingredients at peak freshness. It is adviced to book at least 4 weeks in advance, since demand for our bespoke creations often exceeds supply.</p>
+
+                <p> 
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name"><br>  
+                </p>
+                <p> 
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required="required" placeholder="Email address"><br>  
+                </p>
+                <p> 
+                    <label for="Connoisseurs in Attendance">Connoisseurs in Attendance</label><br>
+                    <input type="text" id="Connoisseurs in Attendance" name="Connoisseurs in Attendance" required="required" placeholder="Number of Guests"><br>  
+                </p>
+                <p> 
+                    <label for="DateOfVisit">Date of Visit</label><br>
+                    <input type="date" id="DateOfVisit" name="DateOfVisit" required="required"><br>  
+                </p>
+                <p> 
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" id="phone" name="phone" required="required" placeholder="Phone number"><br>  
+                </p>
+                <h2> Methods of Compensation</h2>
+                <p> 
+                    <label for="recipient">Recipient</label><br>
+                    <select id="recipient" name="rcp">
+                    <option selected=""selected>Private Wire Transfer</option>
+                    <option>BTC Transaction</option>
+                    <option>Corporate Invoice</option>
+                    <option>Gold Gram Settlement</option>
+                    <option>Cash Courier</option>
+                </select>
+                </p>
+                <p>
+                Gender:<br>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="undisclosed" name="gender" value="undisclosed">
+                <label for="undisclosed">Prefer not to say</label>
+                </p>
+
+                <input type="submit" value="Send">
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <p>2024 Burger Society</p>    
+   </body>
+</html>
