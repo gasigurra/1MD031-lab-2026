@@ -1,5 +1,10 @@
 @import 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400&display=swap';
 
+body {
+  color: white;
+  background-color: black;
+}
+
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
@@ -14,11 +19,22 @@ h1, h2, h3 {
 #burger_description {
    color: white;
    background-color: black;
+   border: 2px solid red;
+}
+
+#burger_description dl {
+  font-weight: bold;
+}
+
+.burger-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 332px), 1fr));
+  gap: 20px;
 }
 
 section {
   padding: 30px;
-  margin: 30px
+  margin: 30px;
 }
 
 input[type=submit] {
@@ -28,4 +44,26 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color:red;
   cursor: pointer;
+}
+
+.top_of_the_page figure {
+  opacity: 0.9;
+  width: 100%;
+}
+
+.top_of_the_page h1 {
+  position: absolute;
+  top:50%;
+  left:50%
+}
+
+header {
+  height: 200px;
+  overflow:hidden;
+  position:relative;
+}
+
+#payment_and_contact {
+  border: 2px solid white;
+  background-color: rgb(30, 29, 29);
 }
